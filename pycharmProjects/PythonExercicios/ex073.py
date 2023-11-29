@@ -1,0 +1,16 @@
+times = ('Palmeiras', 'Internacional', 'Fluminense', 'Corinthians', 'Flamengo', 'Athletico-PR', 'Atlético-MG',
+         'Fortaleza', 'São Paulo', 'América-MG', 'Botafogo', 'Santos', 'Goiás', 'Bragantino', 'Coritiba', 'Cuiabá',
+         'Ceará SC', 'Atlético-GO', 'Avaí', 'Juventude')
+print('-='*10)
+print('BRASILEIRÃO')
+print('-='*10)
+print(f'Os times do Brasileirão são: {times}')
+print('-='*10)
+print(f'Os primeiros 5 colocados são {times[0:5]}')
+print('-='*10)
+print(f'Os últimos 4 colocados são {times[-4:]}')
+print('-='*10)
+print(f'Time em ordem alfabética: {sorted(times)}')
+print('-='*10)
+time = int(input('Qual colocação você quer saber? '))
+print(f'O {times[time-1]} está na {time}ª posição')
